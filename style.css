@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #34568B;
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 40px 40px 40px 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    color: #34568B;
+}
+
+nav ul li:hover {
+    background-color: aliceblue;
+    box-shadow: 10px;
+    border-radius: 8px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.club-badge {
+    display: block;
+    margin: auto;
+    width: 300px;
+    border-radius: 9px;
+    margin-bottom: 30px;
+}
+
+.main-content-words {
+    margin: auto;
+    width: 30%;
+    font-size: 20px;
+    display: block;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+}
