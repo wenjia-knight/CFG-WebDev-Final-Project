@@ -1,85 +1,95 @@
-* {
-    margin: 0;
-    box-sizing: border-box;
+ul li a {
+    color: white !important;
 }
 
-html {
-    background-color: #34568B;
-    font-family: 'Open Sans', sans-serif;
-    color: aliceblue;
-}
-
-h1 {
-    font-size: 45px;
-    margin-bottom: 30px;
-}
-
-.nav-links {
-    display: flex;
-    justify-content: flex-end;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: 40px 40px 40px 10px;
-    padding: 10px;
-    font-weight: bold;
-}
-
-a {
+.sensi_gary {
     text-decoration: none;
-    color: aliceblue;
 }
 
-a:hover {
-    color: #34568B;
+.sensi_gary:hover {
+    text-decoration: none;
+    cursor: pointer;
 }
 
-nav ul li:hover {
+/* add hover effect to links */
+ul li a:hover {
     background-color: aliceblue;
-    box-shadow: 10px;
-    border-radius: 8px;
+    color: navy !important;
 }
 
-.main-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
+body {
+    background-color: aliceblue;
+    color: navy;
+}
+
+.bg-navy {
+    background-color: navy;
+}
+
+/* Style all font awesome icons */
+
+.fa-facebook {
+    color: white;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+.fa-twitter {
+    color: white;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+.fa-instagram {
+    color: white;
+    margin-right: 10px;
+    margin-top: 25px;
 }
 
 
-.club-badge {
-    display: block;
-    margin: auto;
-    width: 300px;
-    border-radius: 9px;
-    margin-bottom: 30px;
+.fa-linkedin-in {
+    color: white;
+    margin-right: 10px;
+    margin-top: 25px;
 }
 
-.main-content-words {
-    margin: auto;
-    width: 30%;
-    font-size: 20px;
-    display: block;
+/* add hover effect to all social media icons */
+
+.fa-facebook:hover {
+    text-decoration: none;
+    opacity: 1;
 }
 
-footer {
-    text-align: center;
-    margin-bottom: 20px;
+.fa-twitter:hover {
+    text-decoration: none;
+    opacity: 1;
 }
 
-.map-responsive {
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative;
-    height: 0;
+.fa-instagram:hover {
+    text-decoration: none;
+    opacity: 1;
 }
 
-.map-responsive iframe {
-    left: 0;
-    top: 0;
-    height: 50%;
-    width: 50%;
-    position: absolute;
+.fa-linkedin-in:hover {
+    text-decoration: none;
+    opacity: 1;
+}
+
+.btn-navy {
+    color: white;
+    background-color: navy;
+    border-color: white;
+    margin-bottom: 5px;
+}
+
+.btn-navy:hover {
+    color: navy;
+    background-color: aliceblue;
+    border-color: navy;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
 }
