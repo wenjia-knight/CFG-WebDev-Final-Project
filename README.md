@@ -8,5 +8,5 @@ This is the website of a local karate club: https://www.chapeltownkarateclub.co.
 
 New style looks like this: 
 
-![image](https://user-images.githubusercontent.com/112980096/196167976-89c1c07d-17de-43e7-a58f-d6ab7044e951.png)
- with improved structure, colour scheme and functionalities.
+![image](https://user-images.githubusercontent.com/112980096/196955248-eb938820-8a52-4e10-ba54-7975c5228770.png)
+ with improved responsiveness, structure, colour scheme and functionalities.
