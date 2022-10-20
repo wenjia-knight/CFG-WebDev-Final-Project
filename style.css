@@ -1,21 +1,4 @@
-ul li a {
-    color: white !important;
-}
-
-.sensi_gary {
-    text-decoration: none;
-}
-
-.sensi_gary:hover {
-    text-decoration: none;
-    cursor: pointer;
-}
-
-/* add hover effect to links */
-ul li a:hover {
-    background-color: aliceblue;
-    color: navy !important;
-}
+/* set up background colour and text colour for all pages */
 
 body {
     background-color: aliceblue;
@@ -26,29 +9,42 @@ body {
     background-color: navy;
 }
 
-/* Style all font awesome icons */
 
+ul li a {
+    color: white !important;
+}
+
+
+/* add hover effect to nav-links */
+ul li a:hover {
+    background-color: aliceblue;
+    color: navy !important;
+}
+
+
+/* Style all font awesome icons  */
+ 
 .fa-facebook {
-    color: white;
+    color: navy;
     margin-right: 10px;
     margin-top: 25px;
 }
 
 .fa-twitter {
-    color: white;
+    color: navy;
     margin-right: 10px;
     margin-top: 25px;
 }
 
 .fa-instagram {
-    color: white;
+    color: navy;
     margin-right: 10px;
     margin-top: 25px;
 }
 
 
 .fa-linkedin-in {
-    color: white;
+    color: navy;
     margin-right: 10px;
     margin-top: 25px;
 }
@@ -75,6 +71,8 @@ body {
     opacity: 1;
 }
 
+/* add style to buttons */
+
 .btn-navy {
     color: white;
     background-color: navy;
@@ -82,13 +80,16 @@ body {
     margin-bottom: 5px;
 }
 
+/* add hover effect to buttons */
+
 .btn-navy:hover {
     color: navy;
     background-color: aliceblue;
     border-color: navy;
 }
 
-.back-to-top {
+/* style back to top button */
+#back-to-top {
     position: fixed;
     bottom: 25px;
     right: 25px;
