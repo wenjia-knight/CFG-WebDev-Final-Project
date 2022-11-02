@@ -21,7 +21,11 @@ ul li a:hover {
     color: navy !important;
 }
 
-
+.calender {
+    width:700px;
+    
+    margin:auto auto;
+}
 /* Style all font awesome icons  */
 
 .fa-facebook {
