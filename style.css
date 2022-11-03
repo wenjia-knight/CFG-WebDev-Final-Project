@@ -22,10 +22,11 @@ ul li a:hover {
 }
 
 .calender {
-    width:700px;
-    
-    margin:auto auto;
+    width: 700px;
+
+    margin: auto auto;
 }
+
 /* Style all font awesome icons  */
 
 .fa-facebook {
@@ -175,65 +176,41 @@ ul {
 }
 
 /* Text on contact form */
-.get-in-touch{
+.get-in-touch {
     text-align: center;
     margin-top: 35px;
     padding: 3px;
 }
 
 
-
 /* Contact Form */
 #Form {
     text-align: center;
     margin-top: 30px;
- 
+
 
 }
 
 .info-text {
     color: navy;
     margin-right: 10px;
-    border: 3px;;
-    box-shadow:0 0 4px blue;
+    border: 3px;
+    box-shadow: 0 0 4px blue;
 }
 
 /* Class options drop down */
-.class-options{
+.class-options {
     padding: 2px;
     margin-top: 10px;
     color: navy;
-    border: 3px;;
-    box-shadow:0 0 4px blue;
-   
+    border: 3px;
+    box-shadow: 0 0 4px blue;
 }
 
 .add-info {
     width: 30%;
     padding: 30px;
     color: navy;
-    border: 3px;;
-    box-shadow:0 0 4px blue;
-   
-    
+    border: 3px;
+    box-shadow: 0 0 4px blue;
 }
-
-button {
-
-    /* remove default behavior */
-    appearance:none;
-    -webkit-appearance:none;
-  
-    /* usual styles */
-    padding: 5px;
-    border:none;
-    background-color:navy;
-    color: white;
-    border-radius:5px;
-    width:5%;
-  
-  }
-
-  .phone {
-    margin
-  }
